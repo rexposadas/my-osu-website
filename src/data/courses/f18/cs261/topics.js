@@ -437,7 +437,7 @@ const topics = [
       {
         title: 'DFS and BFS',
         link: GraphSearchPresentation,
-        description: 'Old Backend Presentation'
+        description: 'Old Section 1 Presentation'
       },
       {
         title: 'Depth-first search',

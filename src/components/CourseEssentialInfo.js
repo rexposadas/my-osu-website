@@ -78,15 +78,15 @@ function CourseEssentialInfo(props) {
 
       {personalData.officeHours ?
         <EssentialInfoItem>
-          <EssentialInfoHeading>Course Duration:</EssentialInfoHeading>
+          {/* <EssentialInfoHeading>Course Duration:</EssentialInfoHeading>
           <EssentialInfoData>
             <OfficeHoursList officeHours={personalData.officeHours} />
-          </EssentialInfoData>
+          </EssentialInfoData> */}
         </EssentialInfoItem> :
         null
       }
 
-      <EssentialInfoItem>
+      {/* <EssentialInfoItem>
         <EssentialInfoHeading>Lectures:</EssentialInfoHeading>
         <EssentialInfoData>
           <AngleList noOneElementList
@@ -94,7 +94,7 @@ function CourseEssentialInfo(props) {
               <span>Section {section}: <Event {...lectures[section]} /></span>
             ))} />
         </EssentialInfoData>
-      </EssentialInfoItem>
+      </EssentialInfoItem> */}
 
       {finalExams ?
         <EssentialInfoItem>
@@ -108,14 +108,14 @@ function CourseEssentialInfo(props) {
         null
       }
 
-      <EssentialInfoItem>
+      {/* <EssentialInfoItem>
         <EssentialInfoHeading>Syllabus:</EssentialInfoHeading>
         <EssentialInfoData>
           <a href={syllabusLink} target="_blank" rel="noopener noreferrer">{number} syllabus</a>
         </EssentialInfoData>
-      </EssentialInfoItem>
+      </EssentialInfoItem> */}
 
-      {textbooks ?
+      {/* {textbooks ?
         <EssentialInfoItem>
           <EssentialInfoHeading>Textbooks:</EssentialInfoHeading>
           <EssentialInfoData>
@@ -126,7 +126,7 @@ function CourseEssentialInfo(props) {
         </EssentialInfoItem> :
         null
       }
-
+ */}
       {links ?
         <EssentialInfoItem>
           <EssentialInfoHeading>Links:</EssentialInfoHeading>

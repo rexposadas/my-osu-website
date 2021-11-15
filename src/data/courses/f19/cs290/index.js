@@ -4,7 +4,7 @@ import finalProject from './finalProject';
 import tas from './tas';
 
 var courseDetails = {
-  number: 'Intro',
+  number: 'Section 2',
   title: 'Web Development',
   term: 'Fall 2019',
 

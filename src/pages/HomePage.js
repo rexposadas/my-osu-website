@@ -138,7 +138,7 @@ function HomePage() {
         <HomePageSectionBox>
           {currentTerm && currentTermData ?
             <InfoContainer>
-              <h2>Backend Course</h2>
+              <h2>Backend Programming</h2>
               {/* <p>These are the classes I'm teaching this term ({currentTermData.title}):</p> */}
               <CourseList term={currentTerm} courses={currentTermData.courses} />
             </InfoContainer> :
@@ -147,8 +147,8 @@ function HomePage() {
           {personalData.officeHours ?
             <InfoContainer>
               <h2>Course Duration</h2>
-              <p>These are my current Course Duration:</p>
-              <OfficeHoursList officeHours={personalData.officeHours} />
+              <p>3 to 4 months</p>
+              {/* <OfficeHoursList officeHours={personalData.officeHours} /> */}
             </InfoContainer> :
             null
           }

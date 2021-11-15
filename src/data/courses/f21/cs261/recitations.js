@@ -8,10 +8,10 @@ const recitations = {
     },
 
     {
-      title: 'Week 1: Backend IT',
+      title: 'Week 1: Section 1 IT',
       resources: [
         {
-          title: 'Backend IT Basics',
+          title: 'Section 1 IT Basics',
           link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
           description: 'Presentation slides.'
         },
@@ -42,7 +42,7 @@ const recitations = {
     {
       title: 'Week 2: TA Help Session',
       notes: [
-        'There won\'t be an exercise or quiz in this week\'s recitation.  Instead, the TAs will give a help session on assignment 1, Backend IT, Git/GitHub, or whatever else you\'d like help on.  Attendance is optional at this week\'s recitation only.'
+        'There won\'t be an exercise or quiz in this week\'s recitation.  Instead, the TAs will give a help session on assignment 1, Section 1 IT, Git/GitHub, or whatever else you\'d like help on.  Attendance is optional at this week\'s recitation only.'
       ]
     },
 

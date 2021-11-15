@@ -123,7 +123,7 @@ const recitations = {
       title: 'Week 1: Recitation Preparation',
       resources: [
         {
-          title: 'Backend IT Basics',
+          title: 'Section 1 IT Basics',
           link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
           description: 'Presentation slides.'
         },

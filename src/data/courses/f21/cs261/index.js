@@ -5,9 +5,9 @@ import tas from './tas';
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
-  number: 'Backend',
+  number: 'Section 1',
   title: 'Data Structures',
-  term: 'Intro to Backend',
+  term: 'Intro to Section 1',
 
   lectures: {
     '020': {
@@ -40,7 +40,7 @@ const courseDetails = {
 
   textbooks: [
     {
-      title: 'Backend Course Notes',
+      title: 'Section 1 Course Notes',
       author: 'Tim Budd',
       link: CS261CourseNotes
     }
@@ -48,21 +48,21 @@ const courseDetails = {
 
   links: [
     {
-      title: 'Backend on Canvas',
+      title: 'Section 1 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1861797'
     },
     {
-      title: 'Backend on Zoom',
+      title: 'Section 1 on Zoom',
       link: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09',
       description: 'all in-person lectures will be broadcast in this Zoom meeting'
     },
     {
-      title: 'Backend on Campuswire',
+      title: 'Section 1 on Campuswire',
       link: 'https://campuswire.com/c/GF70B73EC/',
       description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
-      title: 'Backend on GitHub',
+      title: 'Section 1 on GitHub',
       link: 'https://github.com/osu-cs261-f21',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
