@@ -8,7 +8,7 @@ const tas = [
         time: '4:00 &ndash; 5:30pm',
         location: 'JOHN 121'
         // location: 'video conference',
-        // details: 'Akshay\'s office hours during the first two weeks will be held by video conference at the following link:\n\nhttps://oregonstate.zoom.us/j/7621923704'
+        // details: 'Akshay\'s Course Duration during the first two weeks will be held by video conference at the following link:\n\nhttps://oregonstate.zoom.us/j/7621923704'
       }
     ],
     gradingHours: [

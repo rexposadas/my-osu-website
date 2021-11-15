@@ -3,8 +3,8 @@ var courseDetails = {
   title: 'Mobile Software Development',
   term: 'Winter 2018',
   instructor: {
-    name: 'Rob Hess',
-    email:'hessro@oregonstate.edu'
+    name: 'Rex Posadas',
+    email: 'rexposadas@gmail.com'
   },
 
   officeHours: [

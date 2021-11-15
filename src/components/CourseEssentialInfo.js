@@ -59,85 +59,85 @@ const EssentialInfoData = styled.div`
 function CourseEssentialInfo(props) {
   const { number, title, term, lectures, finalExams, syllabusLink, textbooks, links } = props;
   return (
-      <EssentialInfoContainer>
-        <h1>{number} &ndash; {title}</h1>
-        <h3>{term}</h3>
+    <EssentialInfoContainer>
+      <h1>{number} &ndash; {title}</h1>
+      <h3>{term}</h3>
 
-        <EssentialInfoItem>
-          <EssentialInfoHeading>Instructor:</EssentialInfoHeading>
-          <EssentialInfoData>
-            {personalData.name}
-            {
-              personalData.email ?
+      <EssentialInfoItem>
+        <EssentialInfoHeading>Instructor:</EssentialInfoHeading>
+        <EssentialInfoData>
+          {personalData.name}
+          {
+            personalData.email ?
               <>(<a href={`mailto:${personalData.email}`}>{personalData.email}</a>)</> :
               null
-            }
-          </EssentialInfoData>
-        </EssentialInfoItem>
-
-
-          {personalData.officeHours ?
-            <EssentialInfoItem>
-              <EssentialInfoHeading>Office hours:</EssentialInfoHeading>
-              <EssentialInfoData>
-                <OfficeHoursList officeHours={personalData.officeHours} />
-              </EssentialInfoData>
-            </EssentialInfoItem> :
-            null
           }
+        </EssentialInfoData>
+      </EssentialInfoItem>
 
+
+      {personalData.officeHours ?
         <EssentialInfoItem>
-          <EssentialInfoHeading>Lectures:</EssentialInfoHeading>
+          <EssentialInfoHeading>Course Duration:</EssentialInfoHeading>
           <EssentialInfoData>
-            <AngleList noOneElementList
-              items={Object.keys(lectures).map((section, i) => (
-                <span>Section {section}: <Event {...lectures[section]} /></span>
-              ))}/>
+            <OfficeHoursList officeHours={personalData.officeHours} />
           </EssentialInfoData>
-        </EssentialInfoItem>
+        </EssentialInfoItem> :
+        null
+      }
 
-        {finalExams ?
-          <EssentialInfoItem>
-            <EssentialInfoHeading>Final Exams:</EssentialInfoHeading>
-            <EssentialInfoData><AngleList noOneElementList
-              items={Object.keys(finalExams).map((section, i) => (
-                <span>Section {section}: <Event {...finalExams[section]} /></span>
-              ))}/>
-            </EssentialInfoData>
-          </EssentialInfoItem> :
-          null
-        }
+      <EssentialInfoItem>
+        <EssentialInfoHeading>Lectures:</EssentialInfoHeading>
+        <EssentialInfoData>
+          <AngleList noOneElementList
+            items={Object.keys(lectures).map((section, i) => (
+              <span>Section {section}: <Event {...lectures[section]} /></span>
+            ))} />
+        </EssentialInfoData>
+      </EssentialInfoItem>
 
+      {finalExams ?
         <EssentialInfoItem>
-          <EssentialInfoHeading>Syllabus:</EssentialInfoHeading>
-          <EssentialInfoData>
-            <a href={syllabusLink} target="_blank" rel="noopener noreferrer">{number} syllabus</a>
+          <EssentialInfoHeading>Final Exams:</EssentialInfoHeading>
+          <EssentialInfoData><AngleList noOneElementList
+            items={Object.keys(finalExams).map((section, i) => (
+              <span>Section {section}: <Event {...finalExams[section]} /></span>
+            ))} />
           </EssentialInfoData>
-        </EssentialInfoItem>
+        </EssentialInfoItem> :
+        null
+      }
 
-        {textbooks ?
-          <EssentialInfoItem>
-            <EssentialInfoHeading>Textbooks:</EssentialInfoHeading>
-            <EssentialInfoData>
-              <AngleList noOneElementList items={textbooks.map((textbook, i) => (
-                <span><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</span>
-              ))} />
-            </EssentialInfoData>
-          </EssentialInfoItem>:
-          null
-        }
+      <EssentialInfoItem>
+        <EssentialInfoHeading>Syllabus:</EssentialInfoHeading>
+        <EssentialInfoData>
+          <a href={syllabusLink} target="_blank" rel="noopener noreferrer">{number} syllabus</a>
+        </EssentialInfoData>
+      </EssentialInfoItem>
 
-        {links ?
-          <EssentialInfoItem>
-            <EssentialInfoHeading>Links:</EssentialInfoHeading>
-            <EssentialInfoData>
-              <AngleList items={links.map(link => <TitleLinkDescription {...link} />)} />
-            </EssentialInfoData>
-          </EssentialInfoItem>:
-          null
-        }
+      {textbooks ?
+        <EssentialInfoItem>
+          <EssentialInfoHeading>Textbooks:</EssentialInfoHeading>
+          <EssentialInfoData>
+            <AngleList noOneElementList items={textbooks.map((textbook, i) => (
+              <span><a href={textbook.link} target="_blank" rel="noopener noreferrer">{textbook.title}</a> by {textbook.author}</span>
+            ))} />
+          </EssentialInfoData>
+        </EssentialInfoItem> :
+        null
+      }
 
-      </EssentialInfoContainer>
+      {links ?
+        <EssentialInfoItem>
+          <EssentialInfoHeading>Links:</EssentialInfoHeading>
+          <EssentialInfoData>
+            <AngleList items={links.map(link => <TitleLinkDescription {...link} />)} />
+          </EssentialInfoData>
+        </EssentialInfoItem> :
+        null
+      }
+
+    </EssentialInfoContainer>
   );
 }
 

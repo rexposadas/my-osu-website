@@ -9,8 +9,8 @@ const courseDetails = {
   title: 'Social and Ethical Issues in CS',
   term: 'Winter 2019',
   instructor: {
-    name: 'Rob Hess',
-    email:'hessro@oregonstate.edu'
+    name: 'Rex Posadas',
+    email: 'rexposadas@gmail.com'
   },
 
   officeHours: [
@@ -49,7 +49,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments, debate, finalReport ],
+  assignmentGroups: [assignments, debate, finalReport],
 
   tas: tas
 };

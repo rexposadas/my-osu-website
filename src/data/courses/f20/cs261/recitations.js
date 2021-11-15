@@ -8,10 +8,10 @@ const recitations = {
     },
 
     {
-      title: 'Week 1: CS 261 IT',
+      title: 'Week 1: Backend IT',
       resources: [
         {
-          title: 'CS 261 IT Basics',
+          title: 'Backend IT Basics',
           link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
           description: 'Presentation slides.'
         },
@@ -148,7 +148,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Nicholas Broce' ]
+      tas: ['Nicholas Broce']
     },
     '011': {
       meeting: {
@@ -157,7 +157,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Oyebolaji Akinyemi' ]
+      tas: ['Oyebolaji Akinyemi']
     },
     '012': {
       meeting: {
@@ -166,7 +166,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Kevin Neiger' ]
+      tas: ['Kevin Neiger']
     },
     '013': {
       meeting: {
@@ -175,7 +175,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Sierra Freihoefer' ]
+      tas: ['Sierra Freihoefer']
     },
     '014': {
       meeting: {
@@ -184,7 +184,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Gregory Blood' ]
+      tas: ['Gregory Blood']
     },
     '015': {
       meeting: {
@@ -193,7 +193,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Anneliese Doerfler' ]
+      tas: ['Anneliese Doerfler']
     },
     '016': {
       meeting: {
@@ -202,7 +202,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Jonathan Dressel' ]
+      tas: ['Jonathan Dressel']
     },
     '017': {
       meeting: {
@@ -211,7 +211,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Honghao Li' ]
+      tas: ['Honghao Li']
     },
     '018': {
       meeting: {
@@ -220,7 +220,7 @@ const recitations = {
         timeZone: 'US/Pacific',
         videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
       },
-      tas: [ 'Zachary Taylor' ]
+      tas: ['Zachary Taylor']
     }
   },
 

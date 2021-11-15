@@ -104,7 +104,7 @@ function HomePage() {
             <div>
               <Name>{personalData.name}</Name>
               {personalData.title ? <Title>{personalData.title}</Title> : null}
-              <AddressContainer>
+              {/* <AddressContainer>
                 <p>Address:</p>
                 <Address>
                   {personalData.office ?
@@ -125,7 +125,7 @@ function HomePage() {
                   }
                 </Address>
               </AddressContainer>
-
+ */}
               {personalData.email ?
                 <EmailContainer>E-mail: <a href={`mailto:${personalData.email}`}>{personalData.email}</a></EmailContainer> :
                 null
@@ -138,16 +138,16 @@ function HomePage() {
         <HomePageSectionBox>
           {currentTerm && currentTermData ?
             <InfoContainer>
-              <h2>Teaching</h2>
-              <p>These are the classes I'm teaching this term ({currentTermData.title}):</p>
+              <h2>Backend Course</h2>
+              {/* <p>These are the classes I'm teaching this term ({currentTermData.title}):</p> */}
               <CourseList term={currentTerm} courses={currentTermData.courses} />
             </InfoContainer> :
             null
           }
           {personalData.officeHours ?
             <InfoContainer>
-              <h2>Office Hours</h2>
-              <p>These are my current office hours:</p>
+              <h2>Course Duration</h2>
+              <p>These are my current Course Duration:</p>
               <OfficeHoursList officeHours={personalData.officeHours} />
             </InfoContainer> :
             null
@@ -159,7 +159,7 @@ function HomePage() {
         <HomePageSectionBox>
           <AboutMeContainer>
             <h2>About Me</h2>
-            <div dangerouslySetInnerHTML={{ __html: md.renderInline(personalData.aboutMeText)}} />
+            <div dangerouslySetInnerHTML={{ __html: md.renderInline(personalData.aboutMeText) }} />
           </AboutMeContainer>
         </HomePageSectionBox> :
         null

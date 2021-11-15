@@ -4,7 +4,7 @@ import GraphSearchPresentation from '../../../../static/GraphAlgorithmsII_DFS_BF
 const topics = [
   {
     title: 'Course Intro',
-    weeks: [ 0 ],
+    weeks: [0],
     resources: [
       {
         title: 'Lecture notes',
@@ -22,7 +22,7 @@ const topics = [
 
   {
     title: 'Git and GitHub',
-    weeks: [ 1 ],
+    weeks: [1],
     resources: [
       {
         title: 'Lecture notes',
@@ -40,7 +40,7 @@ const topics = [
 
   {
     title: 'C Review/Crash Course',
-    weeks: [ 1 ],
+    weeks: [1],
     resources: [
       {
         title: 'Lecture notes',
@@ -80,7 +80,7 @@ const topics = [
 
   {
     title: 'Complexity Analysis (Big O)',
-    weeks: [ 2 ],
+    weeks: [2],
     resources: [
       {
         title: 'Lecture notes',
@@ -103,7 +103,7 @@ const topics = [
 
   {
     title: 'Dynamic Arrays',
-    weeks: [ 3 ],
+    weeks: [3],
     resources: [
       {
         title: 'Lecture notes',
@@ -118,7 +118,7 @@ const topics = [
 
   {
     title: 'Stacks, Queues, and Deques',
-    weeks: [ 3 ],
+    weeks: [3],
     resources: [
       {
         title: 'Lecture notes',
@@ -151,7 +151,7 @@ const topics = [
 
   {
     title: 'Linked Lists',
-    weeks: [ 3, 4 ],
+    weeks: [3, 4],
     resources: [
       {
         title: 'Lecture notes',
@@ -178,7 +178,7 @@ const topics = [
 
   {
     title: 'Iterators',
-    weeks: [ 4 ],
+    weeks: [4],
     resources: [
       {
         title: 'Lecture notes',
@@ -205,7 +205,7 @@ const topics = [
 
   {
     title: 'Ordered Arrays and Binary Search',
-    weeks: [ 4 ],
+    weeks: [4],
     resources: [
       {
         title: 'Lecture notes',
@@ -232,7 +232,7 @@ const topics = [
 
   {
     title: 'Midterm exam',
-    weeks: [ 5 ],
+    weeks: [5],
     notes: [
       'The midterm exam will be on Friday of week 5 in our normal lecture location at the normal lecture time.',
       'The exam will cover everything from the first half of the course, up to and including binary search.  Trees and binary search trees will not be covered on the exam.',
@@ -242,7 +242,7 @@ const topics = [
 
   {
     title: 'Binary Search Trees',
-    weeks: [ 6 ],
+    weeks: [6],
     resources: [
       {
         title: 'Lecture notes',
@@ -279,7 +279,7 @@ const topics = [
 
   {
     title: 'Binary Tree Traversals',
-    weeks: [ 6 ],
+    weeks: [6],
     resources: [
       {
         title: 'Lecture notes',
@@ -296,7 +296,7 @@ const topics = [
   },
   {
     title: 'AVL Trees',
-    weeks: [ 6, 7 ],
+    weeks: [6, 7],
     resources: [
       {
         title: 'Lecture notes',
@@ -336,7 +336,7 @@ const topics = [
 
   {
     title: 'Priority Queues and Heaps',
-    weeks: [ 7 ],
+    weeks: [7],
     resources: [
       {
         title: 'Lecture notes',
@@ -364,7 +364,7 @@ const topics = [
 
   {
     title: 'Maps and Hash Tables',
-    weeks: [ 8 ],
+    weeks: [8],
     resources: [
       {
         title: 'Lecture notes',
@@ -405,7 +405,7 @@ const topics = [
 
   {
     title: 'Graphs',
-    weeks: [ 9, 10 ],
+    weeks: [9, 10],
     isCurrent: true,
     resources: [
       {
@@ -437,7 +437,7 @@ const topics = [
       {
         title: 'DFS and BFS',
         link: GraphSearchPresentation,
-        description: 'Old CS 261 Presentation'
+        description: 'Old Backend Presentation'
       },
       {
         title: 'Depth-first search',

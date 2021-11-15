@@ -4,8 +4,8 @@ import aboutMeText from './aboutMeText';
 import photoUrl from '../../static/rob.jpg';
 
 const personalData = {
-  name: 'Rob Hess',
-  email: 'hessro@oregonstate.edu',
+  name: 'Rex Posadas',
+  email: 'rexposadas@gmail.com',
   title: 'Instructor',
 
   office: {

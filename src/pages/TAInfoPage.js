@@ -153,30 +153,30 @@ function TAInfoPage({ title, tas }) {
               <TAInfoData>
                 <TAName><FontAwesomeIcon icon={faAngleDoubleRight} /> {ta.name}</TAName>
                 <TAContact><a href={`mailto:${ta.email}`}><h4>{ta.email}</h4></a></TAContact>
-                  {ta.appointmentsLink && (
-                    <TAContact>
-                      <ButtonContainer>
-                        <Button secondary asLink small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
-                          <FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments
-                        </Button>
+                {ta.appointmentsLink && (
+                  <TAContact>
+                    <ButtonContainer>
+                      <Button secondary asLink small href={ta.appointmentsLink} target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faCalendarPlus} /> &nbsp; Grading Appointments
+                      </Button>
                     </ButtonContainer>
-                    </TAContact>
-                  )}
-                  {ta.videoConferenceLink && (
-                    <TAContact>
-                      <ButtonContainer>
-                        <Button secondary asLink small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
-                          <FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference
-                        </Button>
+                  </TAContact>
+                )}
+                {ta.videoConferenceLink && (
+                  <TAContact>
+                    <ButtonContainer>
+                      <Button secondary asLink small href={ta.videoConferenceLink} target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faVideo} /> &nbsp; Join Videoconference
+                      </Button>
                     </ButtonContainer>
-                    </TAContact>
-                  )}
+                  </TAContact>
+                )}
               </TAInfoData>
 
               <TAInfoData>
                 {ta.officeHours ?
                   <React.Fragment>
-                    <h4>Office Hours</h4>
+                    <h4>Course Duration</h4>
                     <AngleList
                       singleAngle
                       items={ta.officeHours.map((hours, j) => (

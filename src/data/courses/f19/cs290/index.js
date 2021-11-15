@@ -4,7 +4,7 @@ import finalProject from './finalProject';
 import tas from './tas';
 
 var courseDetails = {
-  number: 'CS 290',
+  number: 'Intro',
   title: 'Web Development',
   term: 'Fall 2019',
 
@@ -20,11 +20,11 @@ var courseDetails = {
 
   links: [
     {
-      title: 'CS 290 on Piazza',
+      title: 'Intro on Piazza',
       link: 'https://piazza.com/oregonstate/fall2019/cs290'
     },
     {
-      title: 'CS 290 on GitHub',
+      title: 'Intro on GitHub',
       link: 'https://github.com/osu-cs290-f19'
     },
     {
@@ -35,7 +35,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments, finalProject ],
+  assignmentGroups: [assignments, finalProject],
 
   tas: tas
 };
