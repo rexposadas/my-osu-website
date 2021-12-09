@@ -1,8 +1,10 @@
 const aboutMeText = `
 
-I am a Section 1 Technical Lead with over 20 years of industry experience. My specialty is taking an idea, 
-building the software for it and releasing it to the market.
+I am a Backend Technical Lead with over 20 years of industry experience.
 
-For fun, I play videogames, golf and simply be with my family.`;
+I have a degree in Computer Science,  was a Sillicon Valley senior engineer and co-founded a startup. I have worked with companies such as Uber, UPS, DHL, Disney and Bank of America.
+
+
+`;
 
 export default aboutMeText;
