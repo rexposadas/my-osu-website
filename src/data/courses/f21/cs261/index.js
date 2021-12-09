@@ -7,7 +7,7 @@ import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 const courseDetails = {
   number: 'Section 1',
   title: 'Data Structures',
-  term: 'Intro to Section 1',
+  // term: 'Intro to Section 1',
 
   lectures: {
     '020': {
@@ -19,20 +19,6 @@ const courseDetails = {
     },
   },
 
-  // finalExams: {
-  //   '001': {
-  //     day: 'Tues. 12/8/2020',
-  //     time: '9:30 &ndash; 11:20am',
-  //     timeZone: 'US/Pacific',
-  //     videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
-  //   },
-  //   '002': {
-  //     day: 'Wed. 12/9/2020',
-  //     time: '6:00 &ndash; 7:50pm',
-  //     timeZone: 'US/Pacific',
-  //     videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
-  //   },
-  // },
 
   syllabusLink: 'https://docs.google.com/document/d/1pKRw-beIvlx4jAFEq16Fh_ElWUo5B_crkwPms7_KqoE/edit?usp=sharing',
 
@@ -46,11 +32,8 @@ const courseDetails = {
     }
   ],
 
+  // links here gets displayed in the left nav (section named "Links") in the course page.
   links: [
-    {
-      title: 'Section 1 on Canvas',
-      link: 'https://canvas.oregonstate.edu/courses/1861797'
-    },
     {
       title: 'Section 1 on Zoom',
       link: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09',

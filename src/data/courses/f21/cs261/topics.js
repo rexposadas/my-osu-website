@@ -1,6 +1,7 @@
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 import GraphSearchPresentation from '../../../../static/GraphAlgorithmsII_DFS_BFS.pdf';
 
+// These topics appear on the right side of the course page
 const topics = [
   {
     title: 'Course Intro',
@@ -49,7 +50,7 @@ const topics = [
   },
 
   {
-    title: 'C Basics',
+    title: 'JavaScript Basics',
     weeks: [1, 2, 3],
     resources: [
       {
