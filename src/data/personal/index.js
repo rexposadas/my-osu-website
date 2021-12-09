@@ -1,7 +1,7 @@
 import officeHours from './officeHours';
 import aboutMeText from './aboutMeText';
 
-import photoUrl from '../../static/rob.jpg';
+import photoUrl from '../../static/rexposadas-bluetie.jpg';
 
 const personalData = {
   name: 'Rex Posadas',
