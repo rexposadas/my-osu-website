@@ -147,7 +147,7 @@ function HomePage() {
           {personalData.officeHours ?
             <InfoContainer>
               <h2>Course Duration</h2>
-              <p>3 to 4 months</p>
+              <p>3 months</p>
               {/* <OfficeHoursList officeHours={personalData.officeHours} /> */}
             </InfoContainer> :
             null
