@@ -5,7 +5,7 @@ import tas from './tas';
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
-  number: 'CS 261',
+  number: 'Section 1',
   title: 'Data Structures',
   term: 'Fall 2020',
 
@@ -43,7 +43,7 @@ const courseDetails = {
 
   textbooks: [
     {
-      title: 'CS 261 Course Notes',
+      title: 'Section 1 Course Notes',
       author: 'Tim Budd',
       link: CS261CourseNotes
     }
@@ -51,21 +51,21 @@ const courseDetails = {
 
   links: [
     {
-      title: 'CS 261 on Canvas',
+      title: 'Section 1 on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1784132'
     },
     {
-      title: 'CS 261 on Zoom',
+      title: 'Section 1 on Zoom',
       link: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09',
       description: 'this is where meetings will happen for both lecture sections and all recitations'
     },
     {
-      title: 'CS 261 on Piazza',
+      title: 'Section 1 on Piazza',
       link: 'https://piazza.com/oregonstate/fall2020/cs261',
       description: 'course Q & A forum'
     },
     {
-      title: 'CS 261 on GitHub',
+      title: 'Section 1 on GitHub',
       link: 'https://github.com/osu-cs261-f20',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
@@ -78,7 +78,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments ],
+  assignmentGroups: [assignments],
 
   tas: tas,
 

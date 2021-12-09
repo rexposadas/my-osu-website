@@ -5,12 +5,12 @@ import tas from './tas';
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
-  number: 'CS 261',
+  number: 'Section 1',
   title: 'Data Structures',
   term: 'Fall 2018',
   instructor: {
-    name: 'Rob Hess',
-    email:'hessro@oregonstate.edu'
+    name: 'Rex Posadas',
+    email: 'rexposadas@gmail.com'
   },
 
   officeHours: [
@@ -56,7 +56,7 @@ const courseDetails = {
 
   textbooks: [
     {
-      title: 'CS 261 Course Notes',
+      title: 'Section 1 Course Notes',
       author: 'Tim Budd',
       link: CS261CourseNotes
     }
@@ -64,7 +64,7 @@ const courseDetails = {
 
   links: [
     {
-      title: 'CS 261 on Piazza',
+      title: 'Section 1 on Piazza',
       link: 'https://piazza.com/oregonstate/fall2018/cs261'
     },
     {
@@ -75,7 +75,7 @@ const courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments ],
+  assignmentGroups: [assignments],
 
   tas: tas,
 

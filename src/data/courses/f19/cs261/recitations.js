@@ -9,11 +9,11 @@ const recitations = {
     },
 
     {
-      title: 'Week 1: CS 261 IT',
+      title: 'Week 1: Section 1 IT',
       isCurrent: true,
       resources: [
         {
-          title: 'CS 261 IT Basics',
+          title: 'Section 1 IT Basics',
           link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
           description: 'Presentation slides.'
         },
@@ -41,7 +41,7 @@ const recitations = {
         time: '3:00 &ndash; 3:50pm',
         location: 'Bexell 328'
       },
-      tas: [ 'Seifeddine Mejri' ]
+      tas: ['Seifeddine Mejri']
     },
     '011': {
       meeting: {
@@ -49,7 +49,7 @@ const recitations = {
         time: '3:00 &ndash; 3:50pm',
         location: 'Bexell 323'
       },
-      tas: [ 'Zahir Al-Sulaimawi' ]
+      tas: ['Zahir Al-Sulaimawi']
     },
     '012': {
       meeting: {
@@ -57,7 +57,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'Zahir Al-Sulaimawi' ]
+      tas: ['Zahir Al-Sulaimawi']
     },
     '013': {
       meeting: {
@@ -65,7 +65,7 @@ const recitations = {
         time: '8:00 &ndash; 8:50am',
         location: 'Bexell 3289'
       },
-      tas: [ 'Huahua Wang' ]
+      tas: ['Huahua Wang']
     },
     '014': {
       meeting: {
@@ -73,7 +73,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'Aaron Didner' ]
+      tas: ['Aaron Didner']
     },
     '015': {
       meeting: {
@@ -81,7 +81,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'Jiawei Mo' ]
+      tas: ['Jiawei Mo']
     },
     '016': {
       meeting: {
@@ -89,7 +89,7 @@ const recitations = {
         time: '10:00 &ndash; 10:50am',
         location: 'Bexell 102'
       },
-      tas: [ 'Gregory Blood' ]
+      tas: ['Gregory Blood']
     },
     '017': {
       meeting: {
@@ -97,7 +97,7 @@ const recitations = {
         time: '11:00 &ndash; 11:50am',
         location: 'Bexell 102'
       },
-      tas: [ 'Ryan Kennedy' ]
+      tas: ['Ryan Kennedy']
     },
     '018': {
       meeting: {
@@ -105,7 +105,7 @@ const recitations = {
         time: '6:00 &ndash; 6:50pm',
         location: 'KEC 1003'
       },
-      tas: [ 'Jianlong Huang' ]
+      tas: ['Jianlong Huang']
     }
   },
 

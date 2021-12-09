@@ -7,8 +7,8 @@ var courseDetails = {
   title: 'Translators',
   term: 'Spring 2019',
   instructor: {
-    name: 'Rob Hess',
-    email: 'hessro@oregonstate.edu'
+    name: 'Rex Posadas',
+    email: 'rexposadas@gmail.com'
   },
 
   officeHours: [
@@ -55,7 +55,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments ],
+  assignmentGroups: [assignments],
 
   tas: tas
 };

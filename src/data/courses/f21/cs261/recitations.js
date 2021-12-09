@@ -8,10 +8,10 @@ const recitations = {
     },
 
     {
-      title: 'Week 1: CS 261 IT',
+      title: 'Week 1: Section 1 IT',
       resources: [
         {
-          title: 'CS 261 IT Basics',
+          title: 'Section 1 IT Basics',
           link: 'https://docs.google.com/presentation/d/15J_2DPpmXAHfDtsQXM_Bkj8wsyq6mthf8AB4vFU24JQ/edit?usp=sharing',
           description: 'Presentation slides.'
         },
@@ -42,7 +42,7 @@ const recitations = {
     {
       title: 'Week 2: TA Help Session',
       notes: [
-        'There won\'t be an exercise or quiz in this week\'s recitation.  Instead, the TAs will give a help session on assignment 1, CS 261 IT, Git/GitHub, or whatever else you\'d like help on.  Attendance is optional at this week\'s recitation only.'
+        'There won\'t be an exercise or quiz in this week\'s recitation.  Instead, the TAs will give a help session on assignment 1, Section 1 IT, Git/GitHub, or whatever else you\'d like help on.  Attendance is optional at this week\'s recitation only.'
       ]
     },
 
@@ -184,7 +184,7 @@ const recitations = {
         location: 'STAG 210',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'Tieqiao Wang' ]
+      tas: ['Tieqiao Wang']
     },
     '022': {
       meeting: {
@@ -194,7 +194,7 @@ const recitations = {
         location: 'GILM 234',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'Tieqiao Wang' ]
+      tas: ['Tieqiao Wang']
     },
     '023': {
       meeting: {
@@ -204,7 +204,7 @@ const recitations = {
         location: 'MLM 202',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'Andrew Festa' ]
+      tas: ['Andrew Festa']
     },
     '024': {
       meeting: {
@@ -214,7 +214,7 @@ const recitations = {
         location: 'STAG 260',
         // videoConferenceLink: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09'
       },
-      tas: [ 'Andrew Festa' ]
+      tas: ['Andrew Festa']
     }
   },
 

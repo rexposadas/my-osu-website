@@ -68,10 +68,10 @@ function CoursePage({ match }) {
           key={calendarPageUrl}
         />
       );
-      navLinks.push({
-        title: 'Calendar',
-        path: calendarPageUrl
-      });
+      // navLinks.push({
+      //   title: 'Calendar',
+      //   path: calendarPageUrl
+      // });
     }
 
     /*
@@ -88,10 +88,10 @@ function CoursePage({ match }) {
           key={taPageUrl}
         />
       );
-      navLinks.push({
-        title: 'TAs',
-        path: taPageUrl
-      });
+      // navLinks.push({
+      //   title: 'TAs',
+      //   path: taPageUrl
+      // });
     }
 
     /*
@@ -108,10 +108,10 @@ function CoursePage({ match }) {
           key={recitationPageUrl}
         />
       );
-      navLinks.push({
-        title: 'Recitations',
-        path: recitationPageUrl
-      });
+      // navLinks.push({
+      //   title: 'Recitations',
+      //   path: recitationPageUrl
+      // });
     }
 
     /*

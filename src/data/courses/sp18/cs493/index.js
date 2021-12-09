@@ -5,8 +5,8 @@ var courseDetails = {
   title: 'Cloud Application Development',
   term: 'Spring 2018',
   instructor: {
-    name: 'Rob Hess',
-    email:'hessro@oregonstate.edu'
+    name: 'Rex Posadas',
+    email: 'rexposadas@gmail.com'
   },
 
   officeHours: [

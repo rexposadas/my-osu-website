@@ -4,12 +4,12 @@ import finalProject from './finalProject';
 import tas from './tas';
 
 var courseDetails = {
-  number: 'CS 290',
+  number: 'Intro',
   title: 'Web Development',
   term: 'Spring 2019',
   instructor: {
-    name: 'Rob Hess',
-    email: 'hessro@oregonstate.edu'
+    name: 'Rex Posadas',
+    email: 'rexposadas@gmail.com'
   },
 
   officeHours: [
@@ -37,7 +37,7 @@ var courseDetails = {
 
   links: [
     {
-      title: 'CS 290 on Piazza',
+      title: 'Intro on Piazza',
       link: 'https://piazza.com/oregonstate/spring2019/cs290'
     },
     {
@@ -48,7 +48,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments, finalProject ],
+  assignmentGroups: [assignments, finalProject],
 
   tas: tas
 };

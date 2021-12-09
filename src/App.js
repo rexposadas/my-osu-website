@@ -117,7 +117,7 @@ function App() {
   return (
     <div>
       <Global styles={globalStyles} />
-      <Helmet titleTemplate="%s - Rob Hess - Oregon State University" defaultTitle="Rob Hess - Oregon State University" />
+      <Helmet titleTemplate="%s - Rex Posadas - Oregon State University" defaultTitle="Rex Posadas - Oregon State University" />
 
       <Navbar heading={navHeading} links={navLinks} />
 

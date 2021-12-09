@@ -4,7 +4,7 @@ import finalProject from './finalProject';
 import tas from './tas';
 
 var courseDetails = {
-  number: 'CS 290',
+  number: 'Intro',
   title: 'Web Development',
   term: 'Spring 2021',
 
@@ -23,21 +23,21 @@ var courseDetails = {
 
   links: [
     {
-      title: 'CS 290 on Canvas',
+      title: 'Intro on Canvas',
       link: 'https://canvas.oregonstate.edu/courses/1810869'
     },
     {
-      title: 'CS 290 on Zoom',
+      title: 'Intro on Zoom',
       link: 'https://oregonstate.zoom.us/j/97271231608?pwd=K055UFhRcUlqVVhpY3AzUVRoeFJUUT09',
       description: 'this is where lectures for this course will happen'
     },
     {
-      title: 'CS 290 on Campuswire',
+      title: 'Intro on Campuswire',
       link: 'https://campuswire.com/c/GAAB41534/',
       description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
     },
     {
-      title: 'CS 290 on GitHub',
+      title: 'Intro on GitHub',
       link: 'https://github.com/osu-cs290-sp21',
       description: 'find all lecture code repos and your own private assignment repos here'
     },
@@ -50,7 +50,7 @@ var courseDetails = {
 
   topics: topics,
 
-  assignmentGroups: [ assignments, finalProject ],
+  assignmentGroups: [assignments, finalProject],
 
   tas: tas
 };

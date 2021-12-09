@@ -1,11 +1,11 @@
 import officeHours from './officeHours';
 import aboutMeText from './aboutMeText';
 
-import photoUrl from '../../static/rob.jpg';
+import photoUrl from '../../static/rexposadas-bluetie.jpg';
 
 const personalData = {
-  name: 'Rob Hess',
-  email: 'hessro@oregonstate.edu',
+  name: 'Rex Posadas',
+  email: 'rexposadas@gmail.com',
   title: 'Instructor',
 
   office: {
