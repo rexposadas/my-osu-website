@@ -2,39 +2,39 @@ const assignments = {
   title: 'Assignments',
   assignments: [
     {
-      link : 'https://classroom.github.com/a/cpV3lJiS',
-      title: 'Assignment 1 &ndash; HTML and web publishing',
-      due: {
-        day: 'Monday, 10/11/2021',
-        time: '11:59pm'
-      },
+      // link : 'https://classroom.github.com/a/cpV3lJiS',
+      title: 'Assignment 1 &ndash; JSON exercises',
+      // due: {
+      //   day: 'Monday, 10/11/2021',
+      //   time: '11:59pm'
+      // },
       notes: [
-        'Code Blog link due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 10/25/2021'
+        'Tests your understanding of JSON',
+        // 'Demo due by 11:59pm on Monday, 10/25/2021'
       ]
     },
     {
-      link : 'https://classroom.github.com/a/wrWizBKW',
-      title: 'Assignment 2 &ndash; Styling a page with CSS',
-      due: {
-        day: 'Monday, 10/25/2021',
-        time: '11:59pm'
-      },
+      // link : 'https://classroom.github.com/a/wrWizBKW',
+      title: 'Assignment 2 &ndash; Create simple REST API',
+      // due: {
+      //   day: 'Monday, 10/25/2021',
+      //   time: '11:59pm'
+      // },
       notes: [
-        'Code Blog link due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 11/8/2021'
+        'You will be exposing a REST API which integrates with a database',
+        // 'Demo due by 11:59pm on Monday, 11/8/2021'
       ]
     },
     {
-      link : 'https://classroom.github.com/a/qDjSA01r',
-      title: 'Assignment 3 &ndash; Client-side JS',
-      due: {
-        day: 'Monday, 11/8/2021',
-        time: '11:59pm'
-      },
+      // link : 'https://classroom.github.com/a/qDjSA01r',
+      title: 'Assignment 3 &ndash; Consuming REST APIs',
+      // due: {
+      //   day: 'Monday, 11/8/2021',
+      //   time: '11:59pm'
+      // },
       notes: [
-        'Code Blog link due **ON CANVAS** by assignment due date',
-        'Demo due by 11:59pm on Monday, 11/22/2021'
+        'You will be working with REST APIs built by your classmates',
+        // 'Demo due by 11:59pm on Monday, 11/22/2021'
       ]
     },
     // {
@@ -63,7 +63,7 @@ const assignments = {
     // }
   ],
 
-  preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
+  preamble: 'You are encouraged to work on these assignments with your classmates.  Assignments can be submitted multiple times for regrading. While I encourage group activity, it is required that you submit your assignments under your own github account.'
 };
 
 export default assignments;

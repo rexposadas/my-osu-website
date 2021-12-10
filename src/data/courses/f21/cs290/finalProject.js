@@ -51,4 +51,4 @@ const finalProject = {
   preamble: 'For the final project in this course, you will work in teams to implement a complete web application that serves dynamic, interactive data that is stored in a database on the back end.  You can find more info below.'
 };
 
-export default finalProject;
+// export default finalProject;

@@ -2,52 +2,41 @@ const assignments = {
   title: 'Assignments',
   assignments: [
     {
-      link : 'https://classroom.github.com/a/mjrQ7oIy',
-      title: 'Assignment 1 &ndash; Dynamic arrays and linked lists',
-      due: {
-        day: 'Monday, 10/18/2021',
-        time: '11:59pm'
-      },
-      notes: [
-        'Demo due by 11:59pm, Monday 11/1/2021'
-      ]
-    },
-    {
-      link : 'https://classroom.github.com/a/vG_Vym7q',
-      title: 'Assignment 2 &ndash; Stacks and queues',
-      due: {
-        day: 'Monday, 11/1/2021',
-        time: '11:59pm'
-      },
-      notes: [
-        'Demo due by 11:59pm, Monday 11/15/2021'
-      ]
-    },
-    {
-      link : 'https://classroom.github.com/a/gXW_gdHG',
-      title: 'Assignment 3 &ndash; Binary search trees',
-      due: {
-        day: 'Monday, 11/15/2021',
-        time: '11:59pm'
-      },
-      notes: [
-        'Demo due by 11:59pm, Monday 11/29/2021',
-      ]
-    },
-    // {
-    //   link : '',
-    //   title: 'Assignment 4 &ndash; Priority queues',
+      // link : 'https://classroom.github.com/a/mjrQ7oIy',
+      title: 'Assignment 1 &ndash; Palindrome',
     //   due: {
-    //     day: 'Monday, 12/7/2020',
+    //     day: 'Monday, 10/18/2021',
     //     time: '11:59pm'
     //   },
-    //   notes: [
-    //     '**No demo for this assignment**'
-    //   ]
-    // }
+      notes: [
+        'Tests your undestanding of for-loops and strings'
+      ]
+    },
+    {
+      // link : 'https://classroom.github.com/a/vG_Vym7q',
+      title: 'Assignment 2 &ndash; Search list of objects',
+      // due: {
+      //   day: 'Monday, 11/1/2021',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Tests your understanding of list and objects'
+      ]
+    },
+    {
+      // link : 'https://classroom.github.com/a/gXW_gdHG',
+      title: 'Assignment 3 &ndash; Simple CRUD application',
+      // due: {
+      //   day: 'Monday, 11/15/2021',
+      //   time: '11:59pm'
+      // },
+      notes: [
+        'Tests your understanding of how to work with databases',
+      ]
+    },
   ],
 
-  preamble: 'Programming assignments will be managed via GitHub Classroom.  Following the links below will prompt you to sign in to GitHub and to create an assignment repository for yourself.  The assignment repository will at a minimum contain a `README.md` file containing the assignment description.  There may also be additional skeleton files in the repository to help you get started with the assignment.  To submit an assignment, make sure you have committed your solution code and pushed it to your GitHub repository before the assignment deadline.'
+  preamble: 'You are encouraged to work on these assignments with your classmates.  Assignments can be submitted multiple times for regrading. While I encourage group activity, it is required that you submit your assignments under your own github account.'
 };
 
 export default assignments;

@@ -6,8 +6,8 @@ import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
   number: 'Section 1',
-  title: 'Data Structures',
-  term: 'Intro to Section 1',
+  title: 'Tooling + JavaScript',
+  // term: 'Intro to Section 1',
 
   lectures: {
     '020': {
@@ -19,20 +19,6 @@ const courseDetails = {
     },
   },
 
-  // finalExams: {
-  //   '001': {
-  //     day: 'Tues. 12/8/2020',
-  //     time: '9:30 &ndash; 11:20am',
-  //     timeZone: 'US/Pacific',
-  //     videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
-  //   },
-  //   '002': {
-  //     day: 'Wed. 12/9/2020',
-  //     time: '6:00 &ndash; 7:50pm',
-  //     timeZone: 'US/Pacific',
-  //     videoConferenceLink: 'https://oregonstate.zoom.us/j/96782365084?pwd=N25VdHVjeENvaFNzcHh4aVRoUzZJQT09'
-  //   },
-  // },
 
   syllabusLink: 'https://docs.google.com/document/d/1pKRw-beIvlx4jAFEq16Fh_ElWUo5B_crkwPms7_KqoE/edit?usp=sharing',
 
@@ -46,31 +32,28 @@ const courseDetails = {
     }
   ],
 
+  // links here gets displayed in the left nav (section named "Links") in the course page.
   links: [
     {
-      title: 'Section 1 on Canvas',
-      link: 'https://canvas.oregonstate.edu/courses/1861797'
+      title: 'Code repositories',
+      link: 'https://github.com/rexposadas',
+      description: 'You can find repositories concerning this class in my personal Github.'
     },
-    {
-      title: 'Section 1 on Zoom',
-      link: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09',
-      description: 'all in-person lectures will be broadcast in this Zoom meeting'
-    },
-    {
-      title: 'Section 1 on Campuswire',
-      link: 'https://campuswire.com/c/GF70B73EC/',
-      description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
-    },
-    {
-      title: 'Section 1 on GitHub',
-      link: 'https://github.com/osu-cs261-f21',
-      description: 'find all lecture code repos and your own private assignment repos here'
-    },
-    {
-      title: 'Establishing a positive classroom community',
-      link: '/teaching/community',
-      description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'
-    }
+    // {
+    //   title: 'Section 1 on Campuswire',
+    //   link: 'https://campuswire.com/c/GF70B73EC/',
+    //   description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
+    // },
+    // {
+    //   title: 'Section 1 on GitHub',
+    //   link: 'https://github.com/osu-cs261-f21',
+    //   description: 'find all lecture code repos and your own private assignment repos here'
+    // },
+    // {
+    //   title: 'Establishing a positive classroom community',
+    //   link: '/teaching/community',
+    //   description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'
+    // }
   ],
 
   topics: topics,
