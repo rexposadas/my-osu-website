@@ -1,3 +1,18 @@
+# This is deploye in Heroku 
+
+To deploy: 
+
+  git push heroku master
+
+To run locally:
+
+  npm start
+
+
+
+
+# Below is original 
+
 # My OSU Website
 
 This repo contains the implementation of my OSU website.  It was bootstrapped using [Create React App](https://github.com/facebookincubator/create-react-app).

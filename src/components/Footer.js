@@ -41,9 +41,9 @@ const ReactLogoImg = styled.img`
 function Footer() {
   return (
     <FooterContainer>
-      <ReactLogoImg src={reactLogo} alt="React logo" />
+      {/* <ReactLogoImg src={reactLogo} alt="React logo" />
       This site is powered by <a href="https://facebook.github.io/react/" target="_blank" rel="noopener noreferrer">React</a>.  It was bootstrapped with <a href="https://github.com/facebookincubator/create-react-app" target="_blank" rel="noopener noreferrer">Create React App</a>.
-      The source code is <a href="https://github.com/robwhess/my-osu-website" target="_blank" rel="noopener noreferrer">on GitHub <FontAwesomeIcon icon={faGithub} /></a>.
+      The source code is <a href="https://github.com/robwhess/my-osu-website" target="_blank" rel="noopener noreferrer">on GitHub <FontAwesomeIcon icon={faGithub} /></a>. */}
     </FooterContainer>
   );
 }

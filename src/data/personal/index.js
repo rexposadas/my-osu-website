@@ -27,7 +27,7 @@ const personalData = {
     text: 'Corvallis, OR 97331'
   },
 
-  gitHub: 'https://github.com/robwhess',
+  gitHub: 'https://github.com/rexposadas',
 
   photoUrl: photoUrl,
 
