@@ -8,20 +8,20 @@ const assignments = {
     //     day: 'Monday, 10/18/2021',
     //     time: '11:59pm'
     //   },
-    //   notes: [
-    //     'Demo due by 11:59pm, Monday 11/1/2021'
-    //   ]
+      notes: [
+        'Tests your undestanding of for-loops and strings'
+      ]
     },
     {
       // link : 'https://classroom.github.com/a/vG_Vym7q',
-      title: 'Assignment 2 &ndash; Searching for Objects',
+      title: 'Assignment 2 &ndash; Search list of objects',
       // due: {
       //   day: 'Monday, 11/1/2021',
       //   time: '11:59pm'
       // },
-      // notes: [
-      //   'Demo due by 11:59pm, Monday 11/15/2021'
-      // ]
+      notes: [
+        'Tests your understanding of list and objects'
+      ]
     },
     {
       // link : 'https://classroom.github.com/a/gXW_gdHG',
@@ -30,9 +30,9 @@ const assignments = {
       //   day: 'Monday, 11/15/2021',
       //   time: '11:59pm'
       // },
-      // notes: [
-      //   'Demo due by 11:59pm, Monday 11/29/2021',
-      // ]
+      notes: [
+        'Tests your understanding of how to work with databases',
+      ]
     },
   ],
 

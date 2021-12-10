@@ -35,25 +35,25 @@ const courseDetails = {
   // links here gets displayed in the left nav (section named "Links") in the course page.
   links: [
     {
-      title: 'Section 1 on Zoom',
-      link: 'https://oregonstate.zoom.us/j/99188984882?pwd=U2Z3NjZwaDlNTGNkRDRwSTlyTHNmUT09',
-      description: 'all in-person lectures will be broadcast in this Zoom meeting'
+      title: 'Code repositories',
+      link: 'https://github.com/rexposadas',
+      description: 'You can find repositories concerning this class in my personal Github.'
     },
-    {
-      title: 'Section 1 on Campuswire',
-      link: 'https://campuswire.com/c/GF70B73EC/',
-      description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
-    },
-    {
-      title: 'Section 1 on GitHub',
-      link: 'https://github.com/osu-cs261-f21',
-      description: 'find all lecture code repos and your own private assignment repos here'
-    },
-    {
-      title: 'Establishing a positive classroom community',
-      link: '/teaching/community',
-      description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'
-    }
+    // {
+    //   title: 'Section 1 on Campuswire',
+    //   link: 'https://campuswire.com/c/GF70B73EC/',
+    //   description: 'we will use Campuswire\'s class feed and chatrooms for course Q & A &ndash; check your OSU email for an invite'
+    // },
+    // {
+    //   title: 'Section 1 on GitHub',
+    //   link: 'https://github.com/osu-cs261-f21',
+    //   description: 'find all lecture code repos and your own private assignment repos here'
+    // },
+    // {
+    //   title: 'Establishing a positive classroom community',
+    //   link: '/teaching/community',
+    //   description: 'please read this statement, and let\'s work to make this a great learning environment for everyone'
+    // }
   ],
 
   topics: topics,
