@@ -138,7 +138,7 @@ function HomePage() {
         <HomePageSectionBox>
           {currentTerm && currentTermData ?
             <InfoContainer>
-              <h2>Backend Programming</h2>
+              <h2>Backend Web Programming</h2>
               {/* <p>These are the classes I'm teaching this term ({currentTermData.title}):</p> */}
               <CourseList term={currentTerm} courses={currentTermData.courses} />
             </InfoContainer> :

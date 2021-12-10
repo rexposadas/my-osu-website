@@ -6,7 +6,7 @@ import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
   number: 'Section 1',
-  title: 'Data Structures',
+  title: 'Tooling + JavaScript',
   // term: 'Intro to Section 1',
 
   lectures: {
