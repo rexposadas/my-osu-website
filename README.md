@@ -1,14 +1,27 @@
-# This is deploye in Heroku 
+# This is deployed in Heroku 
+
+See: https://backend-teaching.herokuapp.com/
 
 To deploy: 
+  Get git remote pointing to Heroku, then 
 
-  git push heroku master
+  `git push heroku master`
 
 To run locally:
 
-  npm start
+  `npm start`
 
 
+
+# Trouble shooting
+
+## failed start
+
+```
+react-scripts: command not found
+```
+
+You can fix this by runnning `npm install` 
 
 
 # Below is original 
