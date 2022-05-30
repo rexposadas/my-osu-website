@@ -136,14 +136,18 @@ function HomePage() {
         </HomePageSectionBox>
 
         <HomePageSectionBox>
-          {currentTerm && currentTermData ?
+            <InfoContainer>
+              <h2>Intro to  Web Programming</h2>
+              {/* <p>These are the classes I'm teaching this term ({currentTermData.title}):</p> */}
+              <CourseList term={currentTerm} courses={currentTermData.intro_courses} />
+            </InfoContainer> 
+
             <InfoContainer>
               <h2>Backend Web Programming</h2>
               {/* <p>These are the classes I'm teaching this term ({currentTermData.title}):</p> */}
               <CourseList term={currentTerm} courses={currentTermData.courses} />
-            </InfoContainer> :
-            null
-          }
+            </InfoContainer> 
+
           {personalData.officeHours ?
             <InfoContainer>
               <h2>Course Duration</h2>
