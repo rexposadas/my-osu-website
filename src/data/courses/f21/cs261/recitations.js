@@ -1,7 +1,7 @@
 const recitations = {
   calendar: [
     {
-      title: 'Week 0: No Recitation',
+      title: 'Week 1: No Recitation',
       notes: [
         'No recitation this week.'
       ]

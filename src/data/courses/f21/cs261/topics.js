@@ -5,7 +5,7 @@ import GraphSearchPresentation from '../../../../static/GraphAlgorithmsII_DFS_BF
 const topics = [
   {
     title: 'Course Intro',
-    weeks: [0],
+    // weeks: [1],
     resources: [
       {
         title: 'What is this course about?',

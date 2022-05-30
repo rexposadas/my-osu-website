@@ -4,7 +4,7 @@ import assignments from './assignments';
 import tas from './tas';
 
 var courseDetails = {
-  number: 'Section 2',
+  number: 'Month 2',
   title: 'REST API',
   // term: 'Intro to Section 1',
 

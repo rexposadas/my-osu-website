@@ -5,7 +5,7 @@ import tas from './tas';
 import CS261CourseNotes from '../../../../static/CS261CourseNotes.pdf';
 
 const courseDetails = {
-  number: 'Section 1',
+  number: 'Month 1',
   title: 'Tooling + JavaScript',
   // term: 'Intro to Section 1',
 
